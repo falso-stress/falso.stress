@@ -1,0 +1,385 @@
+<!DOCTYPE html>
+
+<html lang="es">
+
+<head>
+
+  <meta charset="UTF-8">
+
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+ 
+
+  <title>Falso Stress | Rock Nacional / Pop Rock</title>
+
+ 
+
+  <style>
+
+    * {
+
+      box-sizing: border-box;
+
+      margin: 0;
+
+      padding: 0;
+
+    }
+
+ 
+
+    body {
+
+      font-family: Arial, Helvetica, sans-serif;
+
+      background: #000;
+
+      color: #fff;
+
+      line-height: 1.6;
+
+    }
+
+ 
+
+    header {
+
+      min-height: 100vh;
+
+      display: flex;
+
+      align-items: center;
+
+      justify-content: center;
+
+      text-align: center;
+
+      padding: 40px 20px;
+
+      background: #000;
+
+    }
+
+ 
+
+    .hero {
+
+      max-width: 1000px;
+
+      width: 100%;
+
+    }
+
+ 
+
+    .logo {
+
+      width: min(700px, 90%);
+
+      margin-bottom: 30px;
+
+    }
+
+ 
+
+    .hero h1 {
+
+      font-size: 2.2rem;
+
+      letter-spacing: 4px;
+
+      margin-bottom: 10px;
+
+    }
+
+ 
+
+    .hero p {
+
+      color: #aaa;
+
+      font-size: 1.1rem;
+
+    }
+
+ 
+
+    nav {
+
+      position: sticky;
+
+      top: 0;
+
+      background: rgba(0, 0, 0, 0.95);
+
+      border-top: 1px solid #222;
+
+      border-bottom: 1px solid #222;
+
+      padding: 14px 10px;
+
+      text-align: center;
+
+      z-index: 10;
+
+    }
+
+ 
+
+    nav a {
+
+      color: #fff;
+
+      text-decoration: none;
+
+      margin: 0 14px;
+
+      font-weight: bold;
+
+      font-size: 0.95rem;
+
+    }
+
+ 
+
+    nav a:hover {
+
+      color: #aaa;
+
+    }
+
+ 
+
+    section {
+
+      padding: 70px 20px;
+
+      max-width: 1100px;
+
+      margin: auto;
+
+    }
+
+ 
+
+    h2 {
+
+      font-size: 2rem;
+
+      margin-bottom: 25px;
+
+      border-bottom: 2px solid #fff;
+
+      display: inline-block;
+
+      padding-bottom: 5px;
+
+    }
+
+ 
+
+    .banda {
+
+      display: grid;
+
+      grid-template-columns: 1fr 1fr;
+
+      gap: 40px;
+
+      align-items: center;
+
+    }
+
+ 
+
+    .banda img {
+
+      width: 100%;
+
+      background: #fff;
+
+    }
+
+ 
+
+    .banda p {
+
+      color: #ddd;
+
+      font-size: 1.05rem;
+
+    }
+
+ 
+
+    .canciones {
+
+      display: grid;
+
+      grid-template-columns: repeat(auto-fit, minmax(260px, 1fr));
+
+      gap: 25px;
+
+    }
+
+ 
+
+    .tema {
+
+      background: #111;
+
+      border: 1px solid #333;
+
+      padding: 22px;
+
+    }
+
+ 
+
+    .tema h3 {
+
+      margin-bottom: 10px;
+
+      font-size: 1.3rem;
+
+    }
+
+ 
+
+    .tema p {
+
+      color: #aaa;
+
+      font-size: 0.95rem;
+
+      margin-bottom: 18px;
+
+    }
+
+ 
+
+    audio {
+
+      width: 100%;
+
+    }
+
+ 
+
+    .galeria {
+
+      display: grid;
+
+      grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+
+      gap: 20px;
+
+    }
+
+ 
+
+    .galeria img {
+
+      width: 100%;
+
+      background: #fff;
+
+    }
+
+ 
+
+    .contacto {
+
+      text-align: center;
+
+    }
+
+ 
+
+    .contacto p {
+
+      color: #bbb;
+
+      margin-bottom: 10px;
+
+    }
+
+ 
+
+    footer {
+
+      text-align: center;
+
+      padding: 30px 20px;
+
+      border-top: 1px solid #222;
+
+      color: #777;
+
+      font-size: 0.9rem;
+
+    }
+
+ 
+
+    @media (max-width: 700px) {
+
+      .banda {
+
+        grid-template-columns: 1fr;
+
+      }
+
+ 
+
+      nav a {
+
+        display: inline-block;
+
+        margin: 5px 8px;
+
+      }
+
+ 
+
+      .hero h1 {
+
+        font-size: 1.7rem;
+
+      }
+
+    }
+
+  </style>
+
+</head>
+
+ 
+
+<body>
+
+ 
+
+<header>
+
+  <div class="hero">
+
+ 
+
+    <!-- Logo blanco sobre negro -->
+
+    <img
+
+      src="Sin título - 09 de octubre de 2026 a las 15.43.41-7.png"
+
+      alt="Falso Stress"
+
+      class="logo"
+
+    >
+
+ 
+
+    <h1>FALSO STRESS</h1>
+
+    <p>Rock Nacional · Pop Rock</p>
